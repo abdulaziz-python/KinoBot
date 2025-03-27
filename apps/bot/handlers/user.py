@@ -1,7 +1,8 @@
+import re
+
 from django.utils.translation import gettext as _, activate
 from telebot import TeleBot
-from telebot.types import Message
-import re
+from telebot.types import Message, ReactionTypeEmoji
 
 from apps.backend.models.bot import BotUser
 from apps.backend.models.cinema import Cinema
@@ -24,6 +25,13 @@ def any_user(message: Message, bot: TeleBot):
         )
         activate(set_language_code(message.from_user.id))
         logger.info(f"User {message.from_user.id} started the bot.")
+
+        bot.set_message_reaction(
+            message.chat.id,
+            message.message_id,
+            [ReactionTypeEmoji('❤️')],
+            is_big=True
+        )
 
         if message.text.startswith("/start ") and re.match(r"/start \d+", message.text):
             cinema_id = message.text.split(" ")[1]
