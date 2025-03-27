@@ -38,7 +38,8 @@ def callback_handler_info(call: CallbackQuery, bot: TeleBot):
         return
 
     current_domain = Site.objects.get_current().domain
-    thumbnail_url = f"https://{current_domain}" + "/static/images/logo.png"
+    default_url = f"https://{current_domain}" + "/static/images/logo.png"
+    thumbnail_url = f"https://{current_domain}{info.image.url}" if info.image else default_url
     caption = f"<b>{info.title}</b>\n\n{info.description}<a href='{thumbnail_url}'>‎</a>"
 
     bot.edit_message_text(

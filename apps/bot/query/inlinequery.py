@@ -68,8 +68,8 @@ def search_query(bot, query):
         bot_url = get_bot_url(bot)
 
         for cinema in queryset[:50]:
-            thumbnail_url = f"https://{current_domain}{cinema.image.url}" if cinema.image else None
-            # thumbnail_url = "https://child-protection.felixits.uz/media/avatars/PicsArt_25-03-26_10-50-34-589.png"
+            default_url = f"https://{current_domain}" + "/static/images/logo.png"
+            thumbnail_url = f"https://{current_domain}{cinema.image.url}" if cinema.image else default_url
 
             keyboard = InlineKeyboardMarkup()
             keyboard.add(

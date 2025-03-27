@@ -37,7 +37,7 @@ apihelper.ENABLE_MIDDLEWARE = True
 logger.info("Middlewares enabled")
 
 # I recommend increasing num_threads
-bot = TeleBot(TOKEN, num_threads=20)
+bot = TeleBot(TOKEN, num_threads=9)
 logger.info("Bot created")
 
 

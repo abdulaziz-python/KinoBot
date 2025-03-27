@@ -8,10 +8,10 @@ from apps.shared.models.base import AbstractBaseModel
 
 
 def validate_telegram_message_url(value):
-    pattern = r"^https:\/\/t\.me\/[a-zA-Z0-9_]+\/\d+$"
+    pattern = r"^https:\/\/t\.me\/([a-zA-Z0-9_]+|c\/\d+)\/\d+$"
     if not re.match(pattern, value):
         raise ValidationError(
-            "Invalid Telegram message URL format. Example: https://t.me/channel_name/123456"
+            "Invalid Telegram message URL format. Example: https://t.me/channel_name/123456 or https://t.me/c/123456789/123456"
         )
 
 
