@@ -46,7 +46,7 @@ class Cinema(AbstractBaseModel):
     year = models.ForeignKey(
         "Year", on_delete=models.PROTECT, verbose_name=_("Year"), db_index=True
     )
-    code = models.PositiveBigIntegerField(verbose_name=_("Code"), db_index=True)
+    code = models.PositiveBigIntegerField(verbose_name=_("Code"), db_index=True, null=True, blank=True)
     channel = models.ForeignKey(
         "Channel", on_delete=models.PROTECT, verbose_name=_("Channel"), db_index=True
     )
