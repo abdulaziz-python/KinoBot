@@ -1,0 +1,589 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-27 11:12+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: apps/backend/admin/bot.py:38 apps/backend/models/bot.py:48
+#: apps/backend/models/cinema.py:34 apps/bot/keyboard/home.py:10
+msgid "Language"
+msgstr ""
+
+#: apps/backend/admin/bot.py:49 apps/backend/models/bot.py:55
+msgid "Role"
+msgstr ""
+
+#: apps/backend/admin/bot.py:59 apps/backend/models/bot.py:25
+msgid "Telegram ID"
+msgstr ""
+
+#: apps/backend/models/bot.py:13
+msgid "Admin"
+msgstr ""
+
+#: apps/backend/models/bot.py:14
+msgid "Moderator"
+msgstr ""
+
+#: apps/backend/models/bot.py:15 apps/backend/models/saved.py:15
+msgid "User"
+msgstr ""
+
+#: apps/backend/models/bot.py:19 core/settings.py:103
+msgid "Uzbek"
+msgstr ""
+
+#: apps/backend/models/bot.py:20
+msgid "Russian"
+msgstr ""
+
+#: apps/backend/models/bot.py:21 core/settings.py:105
+msgid "English"
+msgstr ""
+
+#: apps/backend/models/bot.py:30 apps/backend/models/channel.py:19
+msgid "Username"
+msgstr ""
+
+#: apps/backend/models/bot.py:33
+msgid "First Name"
+msgstr ""
+
+#: apps/backend/models/bot.py:36
+msgid "Last Name"
+msgstr ""
+
+#: apps/backend/models/bot.py:39
+msgid "Full Name"
+msgstr ""
+
+#: apps/backend/models/bot.py:42
+msgid "Phone Number"
+msgstr ""
+
+#: apps/backend/models/bot.py:50 apps/backend/models/channel.py:26
+msgid "Is Active"
+msgstr ""
+
+#: apps/backend/models/bot.py:60
+msgid "Bot User"
+msgstr ""
+
+#: apps/backend/models/bot.py:61 core/config/unfold_navigation.py:48
+msgid "Bot Users"
+msgstr ""
+
+#: apps/backend/models/channel.py:8
+msgid "Target"
+msgstr ""
+
+#: apps/backend/models/channel.py:9
+msgid "Source"
+msgstr ""
+
+#: apps/backend/models/channel.py:10
+msgid "Draft"
+msgstr ""
+
+#: apps/backend/models/channel.py:14 apps/backend/models/cinema.py:19
+#: apps/backend/models/cinema_data.py:9 apps/backend/models/resolution.py:8
+msgid "Name"
+msgstr ""
+
+#: apps/backend/models/channel.py:15
+msgid "URL"
+msgstr ""
+
+#: apps/backend/models/channel.py:17
+msgid "Channel ID"
+msgstr ""
+
+#: apps/backend/models/channel.py:21
+msgid "Channel Type"
+msgstr ""
+
+#: apps/backend/models/channel.py:29 apps/backend/models/cinema.py:51
+#: core/config/unfold_navigation.py:78
+msgid "Channel"
+msgstr ""
+
+#: apps/backend/models/channel.py:30
+msgid "Channels"
+msgstr ""
+
+#: apps/backend/models/cinema.py:20 apps/backend/models/info.py:9
+msgid "Description"
+msgstr ""
+
+#: apps/backend/models/cinema.py:22 apps/backend/models/info.py:11
+msgid "Image"
+msgstr ""
+
+#: apps/backend/models/cinema.py:27 apps/backend/models/country.py:8
+#: apps/backend/models/country.py:38 core/config/unfold_navigation.py:94
+msgid "Country"
+msgstr ""
+
+#: apps/backend/models/cinema.py:38 apps/backend/models/cinema_data.py:14
+#: core/config/unfold_navigation.py:102
+msgid "Genre"
+msgstr ""
+
+#: apps/backend/models/cinema.py:42 apps/backend/models/resolution.py:18
+#: core/config/unfold_navigation.py:86
+msgid "Resolution"
+msgstr ""
+
+#: apps/backend/models/cinema.py:47 apps/backend/models/cinema_data.py:24
+#: apps/backend/models/cinema_data.py:28 core/config/unfold_navigation.py:110
+msgid "Year"
+msgstr ""
+
+#: apps/backend/models/cinema.py:49
+msgid "Code"
+msgstr ""
+
+#: apps/backend/models/cinema.py:54
+msgid "Message URL"
+msgstr ""
+
+#: apps/backend/models/cinema.py:59
+msgid "Message ID"
+msgstr ""
+
+#: apps/backend/models/cinema.py:62
+msgid "File ID"
+msgstr ""
+
+#: apps/backend/models/cinema.py:65
+msgid "View count"
+msgstr ""
+
+#: apps/backend/models/cinema.py:73
+msgid "Saved count"
+msgstr ""
+
+#: apps/backend/models/cinema.py:81 apps/backend/models/cinema_data.py:11
+#: apps/backend/models/cinema_data.py:25 apps/backend/models/country.py:35
+#: apps/backend/models/info.py:13
+msgid "Is active"
+msgstr ""
+
+#: apps/backend/models/cinema.py:85 core/config/unfold_navigation.py:70
+msgid "Cinema"
+msgstr ""
+
+#: apps/backend/models/cinema.py:86
+msgid "Cinemas"
+msgstr ""
+
+#: apps/backend/models/cinema_data.py:15
+msgid "Genres"
+msgstr ""
+
+#: apps/backend/models/cinema_data.py:29
+msgid "Years"
+msgstr ""
+
+#: apps/backend/models/country.py:11
+msgid "Native name"
+msgstr ""
+
+#: apps/backend/models/country.py:18
+msgid "Phone code"
+msgstr ""
+
+#: apps/backend/models/country.py:24
+msgid "ISO 2"
+msgstr ""
+
+#: apps/backend/models/country.py:27
+msgid "ISO 3"
+msgstr ""
+
+#: apps/backend/models/country.py:30
+msgid "Emoji"
+msgstr ""
+
+#: apps/backend/models/country.py:33
+msgid "EmojiU"
+msgstr ""
+
+#: apps/backend/models/country.py:39
+msgid "Countries"
+msgstr ""
+
+#: apps/backend/models/info.py:8
+msgid "Title"
+msgstr ""
+
+#: apps/backend/models/info.py:16 core/config/unfold_navigation.py:126
+msgid "Info"
+msgstr ""
+
+#: apps/backend/models/info.py:17
+msgid "Infos"
+msgstr ""
+
+#: apps/backend/models/resolution.py:10
+msgid "Label"
+msgstr ""
+
+#: apps/backend/models/resolution.py:12
+msgid "Width"
+msgstr ""
+
+#: apps/backend/models/resolution.py:13
+msgid "Height"
+msgstr ""
+
+#: apps/backend/models/resolution.py:14
+msgid "Bandwidth"
+msgstr ""
+
+#: apps/backend/models/resolution.py:19
+msgid "Resolutions"
+msgstr ""
+
+#: apps/backend/models/saved.py:12
+msgid "cinema"
+msgstr ""
+
+#: apps/backend/models/saved.py:19
+msgid "Saved cinema"
+msgstr ""
+
+#: apps/backend/models/saved.py:20
+msgid "Saved cinemas"
+msgstr ""
+
+#: apps/backend/tasks/cinema.py:66 apps/bot/utils/send_cinema.py:71
+msgid "Failed to retrieve the video."
+msgstr ""
+
+#: apps/bot/handlers/back.py:29 apps/bot/handlers/back.py:57
+#: apps/bot/handlers/language.py:67 apps/bot/handlers/saved.py:92
+#: apps/bot/handlers/user.py:49
+msgid "[{}](tg://user?id={}) Welcome to the bot!"
+msgstr ""
+
+#: apps/bot/handlers/cinema.py:34 apps/bot/handlers/user.py:34
+msgid "Cinema not found."
+msgstr ""
+
+#: apps/bot/handlers/genres.py:33 apps/bot/handlers/genres.py:76
+#: apps/bot/handlers/info.py:24 apps/bot/handlers/language.py:30
+#: apps/bot/handlers/search.py:23 apps/bot/handlers/top.py:40
+#: apps/bot/keyboard/home.py:47 apps/bot/utils/pagination.py:74
+msgid "◀️Back"
+msgstr ""
+
+#: apps/bot/handlers/genres.py:39
+msgid "No genre available."
+msgstr ""
+
+#: apps/bot/handlers/genres.py:44
+msgid "All genres:"
+msgstr ""
+
+#: apps/bot/handlers/genres.py:73
+msgid "List of Cinemas📋"
+msgstr ""
+
+#: apps/bot/handlers/genres.py:78
+#, python-brace-format
+msgid "Find {cinemas_count} cinemas with this genre."
+msgstr ""
+
+#: apps/bot/handlers/info.py:34
+msgid "No info available."
+msgstr ""
+
+#: apps/bot/handlers/language.py:59
+msgid "Language updated successfully!"
+msgstr ""
+
+#: apps/bot/handlers/pagination.py:16
+msgid "You don't have permissions"
+msgstr ""
+
+#: apps/bot/handlers/pagination.py:22
+msgid "Cinema not found"
+msgstr ""
+
+#: apps/bot/handlers/pagination.py:26
+#, python-brace-format
+msgid "Selected cinema: {title}"
+msgstr ""
+
+#: apps/bot/handlers/pagination.py:41
+msgid "You cannot change this page!"
+msgstr ""
+
+#: apps/bot/handlers/random.py:33
+msgid "No available movies at the moment."
+msgstr ""
+
+#: apps/bot/handlers/register.py:72
+msgid "Unknown action."
+msgstr ""
+
+#: apps/bot/handlers/save.py:33
+msgid "Cinema has been unsaved."
+msgstr ""
+
+#: apps/bot/handlers/save.py:36
+msgid "Cinema has been saved."
+msgstr ""
+
+#: apps/bot/handlers/saved.py:33
+msgid "❌ No saved cinema."
+msgstr ""
+
+#: apps/bot/handlers/saved.py:39
+msgid "Loading..."
+msgstr ""
+
+#: apps/bot/handlers/saved.py:74
+msgid "❌No saved cinema."
+msgstr ""
+
+#: apps/bot/handlers/saved.py:79
+msgid "❌Saved cinemas cleared."
+msgstr ""
+
+#: apps/bot/handlers/search.py:30
+msgid "🔍Send me cinema code"
+msgstr ""
+
+#: apps/bot/handlers/top.py:27
+msgid ""
+"Top 10 cinemas:\n"
+"\n"
+msgstr ""
+
+#: apps/bot/handlers/top.py:69
+msgid "Sorry, the cinema you are looking for does not exist."
+msgstr ""
+
+#: apps/bot/handlers/top.py:84
+msgid "Sorry, there was an error while processing your request."
+msgstr ""
+
+#: apps/bot/handlers/user.py:56
+msgid "An error occurred."
+msgstr ""
+
+#: apps/bot/keyboard/home.py:19
+msgid "🔍Search Cinema"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:20
+msgid "📊Top Cinema"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:21
+msgid "🎲Random"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:22
+msgid "📥Saved"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:23
+msgid "⁉️Info"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:24
+msgid "🎭Genres"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:25
+msgid "✅Language"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:28
+msgid "🎬✏️Search Cinema with text"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:39
+msgid "↪️Share"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:42
+msgid "📥Save"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:42
+msgid "🗑️Unsave"
+msgstr ""
+
+#: apps/bot/keyboard/home.py:46
+msgid "💸Donate"
+msgstr ""
+
+#: apps/bot/middlewares/antiflood_middleware.py:18
+msgid "You are making request too often"
+msgstr ""
+
+#: apps/bot/query/inlinequery.py:77
+msgid "🎥Watch cinema"
+msgstr ""
+
+#: apps/bot/query/inlinequery.py:82
+msgid "↩️Share"
+msgstr ""
+
+#: apps/bot/query/inlinequery.py:89 apps/bot/utils/cinema_caption.py:23
+#: apps/bot/utils/cinema_caption.py:26 apps/bot/utils/cinema_caption.py:29
+#: apps/bot/utils/cinema_caption.py:32 apps/bot/utils/cinema_caption.py:35
+#: apps/bot/utils/cinema_caption.py:37
+msgid "Unknown"
+msgstr ""
+
+#: apps/bot/utils/cinema_caption.py:17 apps/bot/utils/cinema_caption.py:38
+msgid "N/A"
+msgstr ""
+
+#: apps/bot/utils/cinema_caption.py:27
+msgid "No description available."
+msgstr ""
+
+#: apps/bot/utils/pagination.py:25
+msgid "You have no saved cinemas!"
+msgstr ""
+
+#: apps/bot/utils/pagination.py:36
+msgid "Page does not exist!"
+msgstr ""
+
+#: apps/bot/utils/pagination.py:49
+#, python-brace-format
+msgid ""
+"📂 Results {start}-{end} of {total}\n"
+"\n"
+msgstr ""
+
+#: apps/bot/utils/pagination.py:53
+#, python-brace-format
+msgid "<b>{index}.</b> {title} | 👁{view_count}\n"
+msgstr ""
+
+#: apps/bot/utils/pagination.py:70
+msgid "🗑Clear"
+msgstr ""
+
+#: apps/bot/utils/send_cinema.py:46
+msgid "The selected movie is unavailable."
+msgstr ""
+
+#: apps/shared/views/dashboard.py:43 assets/templates/admin/index.html:8
+msgid "Dashboard"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:44
+msgid "Analytics"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:45
+msgid "Settings"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:48
+msgid "All"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:50
+msgid "New"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:160
+msgid "Last week revenue"
+msgstr ""
+
+#: apps/shared/views/dashboard.py:178
+msgid "Last week expenses"
+msgstr ""
+
+#: assets/templates/admin/base_site.html:3 assets/templates/admin/index.html:8
+msgid "Django site admin"
+msgstr ""
+
+#: assets/templates/admin/base_site.html:6 assets/templates/admin/index.html:18
+msgid "Django administration"
+msgstr ""
+
+#: assets/templates/admin/index.html:35
+msgid "Last 7 days"
+msgstr ""
+
+#: assets/templates/admin/index.html:51
+msgid "Product performance in last 28 days"
+msgstr ""
+
+#: assets/templates/admin/index.html:56
+msgid "The most trending products in last 2 weeks"
+msgstr ""
+
+#: assets/templates/admin/index.html:62
+#, python-format
+msgid ""
+"\n"
+"                            Total revenue between <strong class=\"font-"
+"semibold text-font-important-light dark:text-font-important-dark dark:text-"
+"white\">1 - 31 October</strong>. Increase <span class=\"text-green-700 font-"
+"semibold dark:text-green-400\">+3.14%%</span> comparing to previous month "
+"<strong class=\"font-semibold text-font-important-light dark:text-font-"
+"important-dark dark:text-white\">1 - 30 September</strong>.\n"
+"                        "
+msgstr ""
+
+#: assets/templates/admin/index.html:83
+msgid "Current system health"
+msgstr ""
+
+#: core/config/unfold.py:22
+msgid "My site"
+msgstr ""
+
+#: core/config/unfold_navigation.py:21
+msgid "Bosh sahifa"
+msgstr ""
+
+#: core/config/unfold_navigation.py:29 core/config/unfold_navigation.py:40
+#: core/config/unfold_navigation.py:145
+msgid "Foydalanuvchilar"
+msgstr ""
+
+#: core/config/unfold_navigation.py:32 core/config/unfold_navigation.py:149
+msgid "Guruhlar"
+msgstr ""
+
+#: core/config/unfold_navigation.py:56
+msgid "Site"
+msgstr ""
+
+#: core/config/unfold_navigation.py:67
+msgid "Models"
+msgstr ""
+
+#: core/config/unfold_navigation.py:118
+msgid "Saved"
+msgstr ""
+
+#: core/settings.py:104
+msgid "Russia"
+msgstr ""

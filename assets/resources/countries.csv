@@ -1,0 +1,251 @@
+id,name,iso3,iso2,phonecode,native,emoji,emojiU
+1,Afghanistan,AFG,AF,93,افغانستان,🇦🇫,U+1F1E6 U+1F1EB
+2,Aland Islands,ALA,AX,358,Åland,🇦🇽,U+1F1E6 U+1F1FD
+3,Albania,ALB,AL,355,Shqipëria,🇦🇱,U+1F1E6 U+1F1F1
+4,Algeria,DZA,DZ,213,الجزائر,🇩🇿,U+1F1E9 U+1F1FF
+5,American Samoa,ASM,AS,1,American Samoa,🇦🇸,U+1F1E6 U+1F1F8
+6,Andorra,AND,AD,376,Andorra,🇦🇩,U+1F1E6 U+1F1E9
+7,Angola,AGO,AO,244,Angola,🇦🇴,U+1F1E6 U+1F1F4
+8,Anguilla,AIA,AI,1,Anguilla,🇦🇮,U+1F1E6 U+1F1EE
+9,Antarctica,ATA,AQ,672,Antarctica,🇦🇶,U+1F1E6 U+1F1F6
+10,Antigua and Barbuda,ATG,AG,1,Antigua and Barbuda,🇦🇬,U+1F1E6 U+1F1EC
+11,Argentina,ARG,AR,54,Argentina,🇦🇷,U+1F1E6 U+1F1F7
+12,Armenia,ARM,AM,374,Հայաստան,🇦🇲,U+1F1E6 U+1F1F2
+13,Aruba,ABW,AW,297,Aruba,🇦🇼,U+1F1E6 U+1F1FC
+14,Australia,AUS,AU,61,Australia,🇦🇺,U+1F1E6 U+1F1FA
+15,Austria,AUT,AT,43,Österreich,🇦🇹,U+1F1E6 U+1F1F9
+16,Azerbaijan,AZE,AZ,994,Azərbaycan,🇦🇿,U+1F1E6 U+1F1FF
+18,Bahrain,BHR,BH,973,‏البحرين,🇧🇭,U+1F1E7 U+1F1ED
+19,Bangladesh,BGD,BD,880,Bangladesh,🇧🇩,U+1F1E7 U+1F1E9
+20,Barbados,BRB,BB,1,Barbados,🇧🇧,U+1F1E7 U+1F1E7
+21,Belarus,BLR,BY,375,Белару́сь,🇧🇾,U+1F1E7 U+1F1FE
+22,Belgium,BEL,BE,32,België,🇧🇪,U+1F1E7 U+1F1EA
+23,Belize,BLZ,BZ,501,Belize,🇧🇿,U+1F1E7 U+1F1FF
+24,Benin,BEN,BJ,229,Bénin,🇧🇯,U+1F1E7 U+1F1EF
+25,Bermuda,BMU,BM,1,Bermuda,🇧🇲,U+1F1E7 U+1F1F2
+26,Bhutan,BTN,BT,975,ʼbrug-yul,🇧🇹,U+1F1E7 U+1F1F9
+27,Bolivia,BOL,BO,591,Bolivia,🇧🇴,U+1F1E7 U+1F1F4
+155,"Bonaire, Sint Eustatius and Saba",BES,BQ,599,Caribisch Nederland,🇧🇶,U+1F1E7 U+1F1F6
+28,Bosnia and Herzegovina,BIH,BA,387,Bosna i Hercegovina,🇧🇦,U+1F1E7 U+1F1E6
+29,Botswana,BWA,BW,267,Botswana,🇧🇼,U+1F1E7 U+1F1FC
+30,Bouvet Island,BVT,BV,0055,Bouvetøya,🇧🇻,U+1F1E7 U+1F1FB
+31,Brazil,BRA,BR,55,Brasil,🇧🇷,U+1F1E7 U+1F1F7
+32,British Indian Ocean Territory,IOT,IO,246,British Indian Ocean Territory,🇮🇴,U+1F1EE U+1F1F4
+33,Brunei,BRN,BN,673,Negara Brunei Darussalam,🇧🇳,U+1F1E7 U+1F1F3
+34,Bulgaria,BGR,BG,359,България,🇧🇬,U+1F1E7 U+1F1EC
+35,Burkina Faso,BFA,BF,226,Burkina Faso,🇧🇫,U+1F1E7 U+1F1EB
+36,Burundi,BDI,BI,257,Burundi,🇧🇮,U+1F1E7 U+1F1EE
+37,Cambodia,KHM,KH,855,Kâmpŭchéa,🇰🇭,U+1F1F0 U+1F1ED
+38,Cameroon,CMR,CM,237,Cameroon,🇨🇲,U+1F1E8 U+1F1F2
+39,Canada,CAN,CA,1,Canada,🇨🇦,U+1F1E8 U+1F1E6
+40,Cape Verde,CPV,CV,238,Cabo Verde,🇨🇻,U+1F1E8 U+1F1FB
+41,Cayman Islands,CYM,KY,1,Cayman Islands,🇰🇾,U+1F1F0 U+1F1FE
+42,Central African Republic,CAF,CF,236,Ködörösêse tî Bêafrîka,🇨🇫,U+1F1E8 U+1F1EB
+43,Chad,TCD,TD,235,Tchad,🇹🇩,U+1F1F9 U+1F1E9
+44,Chile,CHL,CL,56,Chile,🇨🇱,U+1F1E8 U+1F1F1
+45,China,CHN,CN,86,中国,🇨🇳,U+1F1E8 U+1F1F3
+46,Christmas Island,CXR,CX,61,Christmas Island,🇨🇽,U+1F1E8 U+1F1FD
+47,Cocos (Keeling) Islands,CCK,CC,61,Cocos (Keeling) Islands,🇨🇨,U+1F1E8 U+1F1E8
+48,Colombia,COL,CO,57,Colombia,🇨🇴,U+1F1E8 U+1F1F4
+49,Comoros,COM,KM,269,Komori,🇰🇲,U+1F1F0 U+1F1F2
+50,Congo,COG,CG,242,République du Congo,🇨🇬,U+1F1E8 U+1F1EC
+52,Cook Islands,COK,CK,682,Cook Islands,🇨🇰,U+1F1E8 U+1F1F0
+53,Costa Rica,CRI,CR,506,Costa Rica,🇨🇷,U+1F1E8 U+1F1F7
+54,Cote D'Ivoire (Ivory Coast),CIV,CI,225,,🇨🇮,U+1F1E8 U+1F1EE
+55,Croatia,HRV,HR,385,Hrvatska,🇭🇷,U+1F1ED U+1F1F7
+56,Cuba,CUB,CU,53,Cuba,🇨🇺,U+1F1E8 U+1F1FA
+249,Curaçao,CUW,CW,599,Curaçao,🇨🇼,U+1F1E8 U+1F1FC
+57,Cyprus,CYP,CY,357,Κύπρος,🇨🇾,U+1F1E8 U+1F1FE
+58,Czech Republic,CZE,CZ,420,Česká republika,🇨🇿,U+1F1E8 U+1F1FF
+51,Democratic Republic of the Congo,COD,CD,243,République démocratique du Congo,🇨🇩,U+1F1E8 U+1F1E9
+59,Denmark,DNK,DK,45,Danmark,🇩🇰,U+1F1E9 U+1F1F0
+60,Djibouti,DJI,DJ,253,Djibouti,🇩🇯,U+1F1E9 U+1F1EF
+61,Dominica,DMA,DM,1,Dominica,🇩🇲,U+1F1E9 U+1F1F2
+62,Dominican Republic,DOM,DO,1,República Dominicana,🇩🇴,U+1F1E9 U+1F1F4
+64,Ecuador,ECU,EC,593,Ecuador,🇪🇨,U+1F1EA U+1F1E8
+65,Egypt,EGY,EG,20,مصر‎,🇪🇬,U+1F1EA U+1F1EC
+66,El Salvador,SLV,SV,503,El Salvador,🇸🇻,U+1F1F8 U+1F1FB
+67,Equatorial Guinea,GNQ,GQ,240,Guinea Ecuatorial,🇬🇶,U+1F1EC U+1F1F6
+68,Eritrea,ERI,ER,291,ኤርትራ,🇪🇷,U+1F1EA U+1F1F7
+69,Estonia,EST,EE,372,Eesti,🇪🇪,U+1F1EA U+1F1EA
+212,Eswatini,SWZ,SZ,268,Swaziland,🇸🇿,U+1F1F8 U+1F1FF
+70,Ethiopia,ETH,ET,251,ኢትዮጵያ,🇪🇹,U+1F1EA U+1F1F9
+71,Falkland Islands,FLK,FK,500,Falkland Islands,🇫🇰,U+1F1EB U+1F1F0
+72,Faroe Islands,FRO,FO,298,Føroyar,🇫🇴,U+1F1EB U+1F1F4
+73,Fiji Islands,FJI,FJ,679,Fiji,🇫🇯,U+1F1EB U+1F1EF
+74,Finland,FIN,FI,358,Suomi,🇫🇮,U+1F1EB U+1F1EE
+75,France,FRA,FR,33,France,🇫🇷,U+1F1EB U+1F1F7
+76,French Guiana,GUF,GF,594,Guyane française,🇬🇫,U+1F1EC U+1F1EB
+77,French Polynesia,PYF,PF,689,Polynésie française,🇵🇫,U+1F1F5 U+1F1EB
+78,French Southern Territories,ATF,TF,262,Territoire des Terres australes et antarctiques fr,🇹🇫,U+1F1F9 U+1F1EB
+79,Gabon,GAB,GA,241,Gabon,🇬🇦,U+1F1EC U+1F1E6
+81,Georgia,GEO,GE,995,საქართველო,🇬🇪,U+1F1EC U+1F1EA
+82,Germany,DEU,DE,49,Deutschland,🇩🇪,U+1F1E9 U+1F1EA
+83,Ghana,GHA,GH,233,Ghana,🇬🇭,U+1F1EC U+1F1ED
+84,Gibraltar,GIB,GI,350,Gibraltar,🇬🇮,U+1F1EC U+1F1EE
+85,Greece,GRC,GR,30,Ελλάδα,🇬🇷,U+1F1EC U+1F1F7
+86,Greenland,GRL,GL,299,Kalaallit Nunaat,🇬🇱,U+1F1EC U+1F1F1
+87,Grenada,GRD,GD,1,Grenada,🇬🇩,U+1F1EC U+1F1E9
+88,Guadeloupe,GLP,GP,590,Guadeloupe,🇬🇵,U+1F1EC U+1F1F5
+89,Guam,GUM,GU,1,Guam,🇬🇺,U+1F1EC U+1F1FA
+90,Guatemala,GTM,GT,502,Guatemala,🇬🇹,U+1F1EC U+1F1F9
+91,Guernsey and Alderney,GGY,GG,44,Guernsey,🇬🇬,U+1F1EC U+1F1EC
+92,Guinea,GIN,GN,224,Guinée,🇬🇳,U+1F1EC U+1F1F3
+93,Guinea-Bissau,GNB,GW,245,Guiné-Bissau,🇬🇼,U+1F1EC U+1F1FC
+94,Guyana,GUY,GY,592,Guyana,🇬🇾,U+1F1EC U+1F1FE
+95,Haiti,HTI,HT,509,Haïti,🇭🇹,U+1F1ED U+1F1F9
+96,Heard Island and McDonald Islands,HMD,HM,672,Heard Island and McDonald Islands,🇭🇲,U+1F1ED U+1F1F2
+97,Honduras,HND,HN,504,Honduras,🇭🇳,U+1F1ED U+1F1F3
+98,Hong Kong S.A.R.,HKG,HK,852,香港,🇭🇰,U+1F1ED U+1F1F0
+99,Hungary,HUN,HU,36,Magyarország,🇭🇺,U+1F1ED U+1F1FA
+100,Iceland,ISL,IS,354,Ísland,🇮🇸,U+1F1EE U+1F1F8
+101,India,IND,IN,91,भारत,🇮🇳,U+1F1EE U+1F1F3
+102,Indonesia,IDN,ID,62,Indonesia,🇮🇩,U+1F1EE U+1F1E9
+103,Iran,IRN,IR,98,ایران,🇮🇷,U+1F1EE U+1F1F7
+104,Iraq,IRQ,IQ,964,العراق,🇮🇶,U+1F1EE U+1F1F6
+105,Ireland,IRL,IE,353,Éire,🇮🇪,U+1F1EE U+1F1EA
+106,Israel,ISR,IL,972,יִשְׂרָאֵל,🇮🇱,U+1F1EE U+1F1F1
+107,Italy,ITA,IT,39,Italia,🇮🇹,U+1F1EE U+1F1F9
+108,Jamaica,JAM,JM,1,Jamaica,🇯🇲,U+1F1EF U+1F1F2
+109,Japan,JPN,JP,81,日本,🇯🇵,U+1F1EF U+1F1F5
+110,Jersey,JEY,JE,44,Jersey,🇯🇪,U+1F1EF U+1F1EA
+111,Jordan,JOR,JO,962,الأردن,🇯🇴,U+1F1EF U+1F1F4
+112,Kazakhstan,KAZ,KZ,7,Қазақстан,🇰🇿,U+1F1F0 U+1F1FF
+113,Kenya,KEN,KE,254,Kenya,🇰🇪,U+1F1F0 U+1F1EA
+114,Kiribati,KIR,KI,686,Kiribati,🇰🇮,U+1F1F0 U+1F1EE
+248,Kosovo,XKX,XK,383,Republika e Kosovës,🇽🇰,U+1F1FD U+1F1F0
+117,Kuwait,KWT,KW,965,الكويت,🇰🇼,U+1F1F0 U+1F1FC
+118,Kyrgyzstan,KGZ,KG,996,Кыргызстан,🇰🇬,U+1F1F0 U+1F1EC
+119,Laos,LAO,LA,856,ສປປລາວ,🇱🇦,U+1F1F1 U+1F1E6
+120,Latvia,LVA,LV,371,Latvija,🇱🇻,U+1F1F1 U+1F1FB
+121,Lebanon,LBN,LB,961,لبنان,🇱🇧,U+1F1F1 U+1F1E7
+122,Lesotho,LSO,LS,266,Lesotho,🇱🇸,U+1F1F1 U+1F1F8
+123,Liberia,LBR,LR,231,Liberia,🇱🇷,U+1F1F1 U+1F1F7
+124,Libya,LBY,LY,218,‏ليبيا,🇱🇾,U+1F1F1 U+1F1FE
+125,Liechtenstein,LIE,LI,423,Liechtenstein,🇱🇮,U+1F1F1 U+1F1EE
+126,Lithuania,LTU,LT,370,Lietuva,🇱🇹,U+1F1F1 U+1F1F9
+127,Luxembourg,LUX,LU,352,Luxembourg,🇱🇺,U+1F1F1 U+1F1FA
+128,Macau S.A.R.,MAC,MO,853,澳門,🇲🇴,U+1F1F2 U+1F1F4
+130,Madagascar,MDG,MG,261,Madagasikara,🇲🇬,U+1F1F2 U+1F1EC
+131,Malawi,MWI,MW,265,Malawi,🇲🇼,U+1F1F2 U+1F1FC
+132,Malaysia,MYS,MY,60,Malaysia,🇲🇾,U+1F1F2 U+1F1FE
+133,Maldives,MDV,MV,960,Maldives,🇲🇻,U+1F1F2 U+1F1FB
+134,Mali,MLI,ML,223,Mali,🇲🇱,U+1F1F2 U+1F1F1
+135,Malta,MLT,MT,356,Malta,🇲🇹,U+1F1F2 U+1F1F9
+136,Man (Isle of),IMN,IM,44,Isle of Man,🇮🇲,U+1F1EE U+1F1F2
+137,Marshall Islands,MHL,MH,692,M̧ajeļ,🇲🇭,U+1F1F2 U+1F1ED
+138,Martinique,MTQ,MQ,596,Martinique,🇲🇶,U+1F1F2 U+1F1F6
+139,Mauritania,MRT,MR,222,موريتانيا,🇲🇷,U+1F1F2 U+1F1F7
+140,Mauritius,MUS,MU,230,Maurice,🇲🇺,U+1F1F2 U+1F1FA
+141,Mayotte,MYT,YT,262,Mayotte,🇾🇹,U+1F1FE U+1F1F9
+142,Mexico,MEX,MX,52,México,🇲🇽,U+1F1F2 U+1F1FD
+143,Micronesia,FSM,FM,691,Micronesia,🇫🇲,U+1F1EB U+1F1F2
+144,Moldova,MDA,MD,373,Moldova,🇲🇩,U+1F1F2 U+1F1E9
+145,Monaco,MCO,MC,377,Monaco,🇲🇨,U+1F1F2 U+1F1E8
+146,Mongolia,MNG,MN,976,Монгол улс,🇲🇳,U+1F1F2 U+1F1F3
+147,Montenegro,MNE,ME,382,Црна Гора,🇲🇪,U+1F1F2 U+1F1EA
+148,Montserrat,MSR,MS,1,Montserrat,🇲🇸,U+1F1F2 U+1F1F8
+149,Morocco,MAR,MA,212,المغرب,🇲🇦,U+1F1F2 U+1F1E6
+150,Mozambique,MOZ,MZ,258,Moçambique,🇲🇿,U+1F1F2 U+1F1FF
+151,Myanmar,MMR,MM,95,မြန်မာ,🇲🇲,U+1F1F2 U+1F1F2
+152,Namibia,NAM,NA,264,Namibia,🇳🇦,U+1F1F3 U+1F1E6
+153,Nauru,NRU,NR,674,Nauru,🇳🇷,U+1F1F3 U+1F1F7
+154,Nepal,NPL,NP,977,नपल,🇳🇵,U+1F1F3 U+1F1F5
+156,Netherlands,NLD,NL,31,Nederland,🇳🇱,U+1F1F3 U+1F1F1
+157,New Caledonia,NCL,NC,687,Nouvelle-Calédonie,🇳🇨,U+1F1F3 U+1F1E8
+158,New Zealand,NZL,NZ,64,New Zealand,🇳🇿,U+1F1F3 U+1F1FF
+159,Nicaragua,NIC,NI,505,Nicaragua,🇳🇮,U+1F1F3 U+1F1EE
+160,Niger,NER,NE,227,Niger,🇳🇪,U+1F1F3 U+1F1EA
+161,Nigeria,NGA,NG,234,Nigeria,🇳🇬,U+1F1F3 U+1F1EC
+162,Niue,NIU,NU,683,Niuē,🇳🇺,U+1F1F3 U+1F1FA
+163,Norfolk Island,NFK,NF,672,Norfolk Island,🇳🇫,U+1F1F3 U+1F1EB
+115,North Korea,PRK,KP,850,북한,🇰🇵,U+1F1F0 U+1F1F5
+129,North Macedonia,MKD,MK,389,Северна Македонија,🇲🇰,U+1F1F2 U+1F1F0
+164,Northern Mariana Islands,MNP,MP,1,Northern Mariana Islands,🇲🇵,U+1F1F2 U+1F1F5
+165,Norway,NOR,NO,47,Norge,🇳🇴,U+1F1F3 U+1F1F4
+166,Oman,OMN,OM,968,عمان,🇴🇲,U+1F1F4 U+1F1F2
+167,Pakistan,PAK,PK,92,پاکستان,🇵🇰,U+1F1F5 U+1F1F0
+168,Palau,PLW,PW,680,Palau,🇵🇼,U+1F1F5 U+1F1FC
+169,Palestinian Territory Occupied,PSE,PS,970,فلسطين,🇵🇸,U+1F1F5 U+1F1F8
+170,Panama,PAN,PA,507,Panamá,🇵🇦,U+1F1F5 U+1F1E6
+171,Papua New Guinea,PNG,PG,675,Papua Niugini,🇵🇬,U+1F1F5 U+1F1EC
+172,Paraguay,PRY,PY,595,Paraguay,🇵🇾,U+1F1F5 U+1F1FE
+173,Peru,PER,PE,51,Perú,🇵🇪,U+1F1F5 U+1F1EA
+174,Philippines,PHL,PH,63,Pilipinas,🇵🇭,U+1F1F5 U+1F1ED
+175,Pitcairn Island,PCN,PN,870,Pitcairn Islands,🇵🇳,U+1F1F5 U+1F1F3
+176,Poland,POL,PL,48,Polska,🇵🇱,U+1F1F5 U+1F1F1
+177,Portugal,PRT,PT,351,Portugal,🇵🇹,U+1F1F5 U+1F1F9
+178,Puerto Rico,PRI,PR,1,Puerto Rico,🇵🇷,U+1F1F5 U+1F1F7
+179,Qatar,QAT,QA,974,قطر,🇶🇦,U+1F1F6 U+1F1E6
+180,Reunion,REU,RE,262,La Réunion,🇷🇪,U+1F1F7 U+1F1EA
+181,Romania,ROU,RO,40,România,🇷🇴,U+1F1F7 U+1F1F4
+182,Russia,RUS,RU,7,Россия,🇷🇺,U+1F1F7 U+1F1FA
+183,Rwanda,RWA,RW,250,Rwanda,🇷🇼,U+1F1F7 U+1F1FC
+184,Saint Helena,SHN,SH,290,Saint Helena,🇸🇭,U+1F1F8 U+1F1ED
+185,Saint Kitts and Nevis,KNA,KN,1,Saint Kitts and Nevis,🇰🇳,U+1F1F0 U+1F1F3
+186,Saint Lucia,LCA,LC,1,Saint Lucia,🇱🇨,U+1F1F1 U+1F1E8
+187,Saint Pierre and Miquelon,SPM,PM,508,Saint-Pierre-et-Miquelon,🇵🇲,U+1F1F5 U+1F1F2
+188,Saint Vincent and the Grenadines,VCT,VC,1,Saint Vincent and the Grenadines,🇻🇨,U+1F1FB U+1F1E8
+189,Saint-Barthelemy,BLM,BL,590,Saint-Barthélemy,🇧🇱,U+1F1E7 U+1F1F1
+190,Saint-Martin (French part),MAF,MF,590,Saint-Martin,🇲🇫,U+1F1F2 U+1F1EB
+191,Samoa,WSM,WS,685,Samoa,🇼🇸,U+1F1FC U+1F1F8
+192,San Marino,SMR,SM,378,San Marino,🇸🇲,U+1F1F8 U+1F1F2
+193,Sao Tome and Principe,STP,ST,239,São Tomé e Príncipe,🇸🇹,U+1F1F8 U+1F1F9
+194,Saudi Arabia,SAU,SA,966,المملكة العربية السعودية,🇸🇦,U+1F1F8 U+1F1E6
+195,Senegal,SEN,SN,221,Sénégal,🇸🇳,U+1F1F8 U+1F1F3
+196,Serbia,SRB,RS,381,Србија,🇷🇸,U+1F1F7 U+1F1F8
+197,Seychelles,SYC,SC,248,Seychelles,🇸🇨,U+1F1F8 U+1F1E8
+198,Sierra Leone,SLE,SL,232,Sierra Leone,🇸🇱,U+1F1F8 U+1F1F1
+199,Singapore,SGP,SG,65,Singapore,🇸🇬,U+1F1F8 U+1F1EC
+250,Sint Maarten (Dutch part),SXM,SX,1721,Sint Maarten,🇸🇽,U+1F1F8 U+1F1FD
+200,Slovakia,SVK,SK,421,Slovensko,🇸🇰,U+1F1F8 U+1F1F0
+201,Slovenia,SVN,SI,386,Slovenija,🇸🇮,U+1F1F8 U+1F1EE
+202,Solomon Islands,SLB,SB,677,Solomon Islands,🇸🇧,U+1F1F8 U+1F1E7
+203,Somalia,SOM,SO,252,Soomaaliya,🇸🇴,U+1F1F8 U+1F1F4
+204,South Africa,ZAF,ZA,27,South Africa,🇿🇦,U+1F1FF U+1F1E6
+205,South Georgia,SGS,GS,500,South Georgia,🇬🇸,U+1F1EC U+1F1F8
+116,South Korea,KOR,KR,82,대한민국,🇰🇷,U+1F1F0 U+1F1F7
+206,South Sudan,SSD,SS,211,South Sudan,🇸🇸,U+1F1F8 U+1F1F8
+207,Spain,ESP,ES,34,España,🇪🇸,U+1F1EA U+1F1F8
+208,Sri Lanka,LKA,LK,94,śrī laṃkāva,🇱🇰,U+1F1F1 U+1F1F0
+209,Sudan,SDN,SD,249,السودان,🇸🇩,U+1F1F8 U+1F1E9
+210,Suriname,SUR,SR,597,Suriname,🇸🇷,U+1F1F8 U+1F1F7
+211,Svalbard and Jan Mayen Islands,SJM,SJ,47,Svalbard og Jan Mayen,🇸🇯,U+1F1F8 U+1F1EF
+213,Sweden,SWE,SE,46,Sverige,🇸🇪,U+1F1F8 U+1F1EA
+214,Switzerland,CHE,CH,41,Schweiz,🇨🇭,U+1F1E8 U+1F1ED
+215,Syria,SYR,SY,963,سوريا,🇸🇾,U+1F1F8 U+1F1FE
+216,Taiwan,TWN,TW,886,臺灣,🇹🇼,U+1F1F9 U+1F1FC
+217,Tajikistan,TJK,TJ,992,Тоҷикистон,🇹🇯,U+1F1F9 U+1F1EF
+218,Tanzania,TZA,TZ,255,Tanzania,🇹🇿,U+1F1F9 U+1F1FF
+219,Thailand,THA,TH,66,ประเทศไทย,🇹🇭,U+1F1F9 U+1F1ED
+17,The Bahamas,BHS,BS,1,Bahamas,🇧🇸,U+1F1E7 U+1F1F8
+80,The Gambia ,GMB,GM,220,Gambia,🇬🇲,U+1F1EC U+1F1F2
+63,Timor-Leste,TLS,TL,670,Timor-Leste,🇹🇱,U+1F1F9 U+1F1F1
+220,Togo,TGO,TG,228,Togo,🇹🇬,U+1F1F9 U+1F1EC
+221,Tokelau,TKL,TK,690,Tokelau,🇹🇰,U+1F1F9 U+1F1F0
+222,Tonga,TON,TO,676,Tonga,🇹🇴,U+1F1F9 U+1F1F4
+223,Trinidad and Tobago,TTO,TT,1,Trinidad and Tobago,🇹🇹,U+1F1F9 U+1F1F9
+224,Tunisia,TUN,TN,216,تونس,🇹🇳,U+1F1F9 U+1F1F3
+225,Turkey,TUR,TR,90,Türkiye,🇹🇷,U+1F1F9 U+1F1F7
+226,Turkmenistan,TKM,TM,993,Türkmenistan,🇹🇲,U+1F1F9 U+1F1F2
+227,Turks and Caicos Islands,TCA,TC,1,Turks and Caicos Islands,🇹🇨,U+1F1F9 U+1F1E8
+228,Tuvalu,TUV,TV,688,Tuvalu,🇹🇻,U+1F1F9 U+1F1FB
+229,Uganda,UGA,UG,256,Uganda,🇺🇬,U+1F1FA U+1F1EC
+230,Ukraine,UKR,UA,380,Україна,🇺🇦,U+1F1FA U+1F1E6
+231,United Arab Emirates,ARE,AE,971,دولة الإمارات العربية المتحدة,🇦🇪,U+1F1E6 U+1F1EA
+232,United Kingdom,GBR,GB,44,United Kingdom,🇬🇧,U+1F1EC U+1F1E7
+233,United States,USA,US,1,United States,🇺🇸,U+1F1FA U+1F1F8
+234,United States Minor Outlying Islands,UMI,UM,1,United States Minor Outlying Islands,🇺🇲,U+1F1FA U+1F1F2
+235,Uruguay,URY,UY,598,Uruguay,🇺🇾,U+1F1FA U+1F1FE
+236,Uzbekistan,UZB,UZ,998,O‘zbekiston,🇺🇿,U+1F1FA U+1F1FF
+237,Vanuatu,VUT,VU,678,Vanuatu,🇻🇺,U+1F1FB U+1F1FA
+238,Vatican City State (Holy See),VAT,VA,379,Vaticano,🇻🇦,U+1F1FB U+1F1E6
+239,Venezuela,VEN,VE,58,Venezuela,🇻🇪,U+1F1FB U+1F1EA
+240,Vietnam,VNM,VN,84,Việt Nam,🇻🇳,U+1F1FB U+1F1F3
+241,Virgin Islands (British),VGB,VG,1,British Virgin Islands,🇻🇬,U+1F1FB U+1F1EC
+242,Virgin Islands (US),VIR,VI,1,United States Virgin Islands,🇻🇮,U+1F1FB U+1F1EE
+243,Wallis and Futuna Islands,WLF,WF,681,Wallis et Futuna,🇼🇫,U+1F1FC U+1F1EB
+244,Western Sahara,ESH,EH,212,الصحراء الغربية,🇪🇭,U+1F1EA U+1F1ED
+245,Yemen,YEM,YE,967,اليَمَن,🇾🇪,U+1F1FE U+1F1EA
+246,Zambia,ZMB,ZM,260,Zambia,🇿🇲,U+1F1FF U+1F1F2
+247,Zimbabwe,ZWE,ZW,263,Zimbabwe,🇿🇼,U+1F1FF U+1F1FC

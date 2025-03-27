@@ -1,0 +1,108 @@
+services:
+  web:
+    restart: always
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: deployments/compose/django/Dockerfile
+    command: /start
+    volumes:
+      - .:/app
+    ports:
+      - ${PORT:-8001}:8000
+    depends_on:
+      - pgbouncer
+      - redis
+
+  bot:
+    build:
+      context: .
+      dockerfile: deployments/compose/bot/Dockerfile
+    command: python apps/bot/main.py
+    volumes:
+      - .:/app
+    depends_on:
+      - web
+    restart: always
+
+  db:
+    image: postgres:16-alpine
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  pgbouncer:
+    image: pgbouncer/pgbouncer:latest
+    restart: always
+    environment:
+      - DATABASES_AUTH_USER=${POSTGRES_USER}
+      - DATABASES_CLIENT_SIDE_DBNAME=${POSTGRES_DB}
+      - DATABASES_USER=${POSTGRES_USER}
+      - DATABASES_PASSWORD=${POSTGRES_PASSWORD}
+      - DATABASES_DBNAME=${POSTGRES_DB}
+      - DATABASES_HOST=${POSTGRES_HOST}
+      - DATABASES_PORT=${POSTGRES_PORT:-5432}
+      - PGBOUNCER_DEFAULT_POOL_SIZE=100
+      - PGBOUNCER_MAX_CLIENT_CONN=10000
+      - PGBOUNCER_LISTEN_PORT=${POSTGRES_BOUNCER_PORT:-6432}
+      - PGBOUNCER_LISTEN_ADDR=*
+      - PGBOUNCER_LOGFILE=/var/log/pgbouncer/pgbouncer.log
+    volumes:
+      - pgbouncer_data:/etc/pgbouncer
+    ports:
+      - ${POSTGRES_BOUNCER_PORT:-6432}:6432
+    depends_on:
+      db:
+        condition: service_healthy
+
+  redis:
+    image: redis:latest
+    restart: always
+
+
+  celery_worker:
+    build:
+      context: .
+      dockerfile: ./deployments/compose/django/Dockerfile
+    command: /start-celeryworker
+    restart: always
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      - redis
+      - pgbouncer
+
+  celery_beat:
+    build:
+      context: .
+      dockerfile: ./deployments/compose/django/Dockerfile
+    command: /start-celerybeat
+    restart: always
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      - redis
+      - pgbouncer
+
+
+volumes:
+  pg_data:
+    driver: local
+  pgbouncer_data:
+    driver: local

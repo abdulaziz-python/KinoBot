@@ -1,0 +1,602 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-27 10:55+0500\n"
+"PO-Revision-Date: 2025-03-27 10:58+0500\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: apps/backend/admin/bot.py:38 apps/backend/models/bot.py:48
+#: apps/backend/models/cinema.py:34 apps/bot/keyboard/home.py:10
+msgid "Language"
+msgstr "Язык"
+
+#: apps/backend/admin/bot.py:49 apps/backend/models/bot.py:55
+msgid "Role"
+msgstr "Роль"
+
+#: apps/backend/admin/bot.py:59 apps/backend/models/bot.py:25
+msgid "Telegram ID"
+msgstr "Идентификатор Telegram"
+
+#: apps/backend/models/bot.py:13
+msgid "Admin"
+msgstr "Админ"
+
+#: apps/backend/models/bot.py:14
+msgid "Moderator"
+msgstr "Модератор"
+
+#: apps/backend/models/bot.py:15 apps/backend/models/saved.py:15
+msgid "User"
+msgstr "Пользователь"
+
+#: apps/backend/models/bot.py:19 core/settings.py:103
+msgid "Uzbek"
+msgstr "узбекский"
+
+#: apps/backend/models/bot.py:20
+msgid "Russian"
+msgstr "русский"
+
+#: apps/backend/models/bot.py:21 core/settings.py:105
+msgid "English"
+msgstr "Английский"
+
+#: apps/backend/models/bot.py:30 apps/backend/models/channel.py:19
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: apps/backend/models/bot.py:33
+msgid "First Name"
+msgstr "Имя"
+
+#: apps/backend/models/bot.py:36
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: apps/backend/models/bot.py:39
+msgid "Full Name"
+msgstr "ФИО"
+
+#: apps/backend/models/bot.py:42
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: apps/backend/models/bot.py:50 apps/backend/models/channel.py:26
+msgid "Is Active"
+msgstr "Активно"
+
+#: apps/backend/models/bot.py:60
+msgid "Bot User"
+msgstr "Пользователь бота"
+
+#: apps/backend/models/bot.py:61 core/config/unfold_navigation.py:48
+msgid "Bot Users"
+msgstr "Пользователи ботов"
+
+#: apps/backend/models/channel.py:8
+msgid "Target"
+msgstr "Цель"
+
+#: apps/backend/models/channel.py:9
+msgid "Source"
+msgstr "Источник"
+
+#: apps/backend/models/channel.py:10
+msgid "Draft"
+msgstr "Черновик"
+
+#: apps/backend/models/channel.py:14 apps/backend/models/cinema.py:19
+#: apps/backend/models/cinema_data.py:9 apps/backend/models/resolution.py:8
+msgid "Name"
+msgstr "Название"
+
+#: apps/backend/models/channel.py:15
+msgid "URL"
+msgstr "URL"
+
+#: apps/backend/models/channel.py:17
+msgid "Channel ID"
+msgstr "ID канала"
+
+#: apps/backend/models/channel.py:21
+msgid "Channel Type"
+msgstr "Тип канала"
+
+#: apps/backend/models/channel.py:29 apps/backend/models/cinema.py:51
+#: core/config/unfold_navigation.py:78
+msgid "Channel"
+msgstr "Канал"
+
+#: apps/backend/models/channel.py:30
+msgid "Channels"
+msgstr "Каналы"
+
+#: apps/backend/models/cinema.py:20 apps/backend/models/info.py:9
+msgid "Description"
+msgstr "Описание"
+
+#: apps/backend/models/cinema.py:22 apps/backend/models/info.py:11
+msgid "Image"
+msgstr "Образ"
+
+#: apps/backend/models/cinema.py:27 apps/backend/models/country.py:8
+#: apps/backend/models/country.py:38 core/config/unfold_navigation.py:94
+msgid "Country"
+msgstr "Страна"
+
+#: apps/backend/models/cinema.py:38 apps/backend/models/cinema_data.py:14
+#: core/config/unfold_navigation.py:102
+msgid "Genre"
+msgstr "Жанр"
+
+#: apps/backend/models/cinema.py:42 apps/backend/models/resolution.py:18
+#: core/config/unfold_navigation.py:86
+msgid "Resolution"
+msgstr "Резолюция"
+
+#: apps/backend/models/cinema.py:47 apps/backend/models/cinema_data.py:24
+#: apps/backend/models/cinema_data.py:28 core/config/unfold_navigation.py:110
+msgid "Year"
+msgstr "Год"
+
+#: apps/backend/models/cinema.py:49
+msgid "Code"
+msgstr "Код"
+
+#: apps/backend/models/cinema.py:54
+msgid "Message URL"
+msgstr "URL сообщения"
+
+#: apps/backend/models/cinema.py:59
+msgid "Message ID"
+msgstr "ID сообщения"
+
+#: apps/backend/models/cinema.py:62
+msgid "File ID"
+msgstr "Идентификатор файла"
+
+#: apps/backend/models/cinema.py:65
+msgid "View count"
+msgstr "Количество просмотров"
+
+#: apps/backend/models/cinema.py:73
+msgid "Saved count"
+msgstr "Количество сохранено"
+
+#: apps/backend/models/cinema.py:81 apps/backend/models/cinema_data.py:11
+#: apps/backend/models/cinema_data.py:25 apps/backend/models/country.py:35
+#: apps/backend/models/info.py:13
+msgid "Is active"
+msgstr "Активно"
+
+#: apps/backend/models/cinema.py:85 core/config/unfold_navigation.py:70
+msgid "Cinema"
+msgstr "Кино"
+
+#: apps/backend/models/cinema.py:86
+msgid "Cinemas"
+msgstr "Кинематографы"
+
+#: apps/backend/models/cinema_data.py:15
+msgid "Genres"
+msgstr "Жанры"
+
+#: apps/backend/models/cinema_data.py:29
+msgid "Years"
+msgstr "Годы"
+
+#: apps/backend/models/country.py:11
+msgid "Native name"
+msgstr "Коренное имя"
+
+#: apps/backend/models/country.py:18
+msgid "Phone code"
+msgstr "Телефонный код"
+
+#: apps/backend/models/country.py:24
+msgid "ISO 2"
+msgstr "ИСО 2"
+
+#: apps/backend/models/country.py:27
+msgid "ISO 3"
+msgstr "ИСО 3"
+
+#: apps/backend/models/country.py:30
+msgid "Emoji"
+msgstr "Эмоджи"
+
+#: apps/backend/models/country.py:33
+msgid "EmojiU"
+msgstr "EmojiU"
+
+#: apps/backend/models/country.py:39
+msgid "Countries"
+msgstr "Страны"
+
+#: apps/backend/models/info.py:8
+msgid "Title"
+msgstr "Титул"
+
+#: apps/backend/models/info.py:16 core/config/unfold_navigation.py:126
+msgid "Info"
+msgstr "Информация"
+
+#: apps/backend/models/info.py:17
+msgid "Infos"
+msgstr "Инфос"
+
+#: apps/backend/models/resolution.py:10
+msgid "Label"
+msgstr "Метка"
+
+#: apps/backend/models/resolution.py:12
+msgid "Width"
+msgstr "Ширина"
+
+#: apps/backend/models/resolution.py:13
+msgid "Height"
+msgstr "Высота"
+
+#: apps/backend/models/resolution.py:14
+msgid "Bandwidth"
+msgstr "Пропускная способность"
+
+#: apps/backend/models/resolution.py:19
+msgid "Resolutions"
+msgstr "Резолюции"
+
+#: apps/backend/models/saved.py:12
+msgid "cinema"
+msgstr "кинотеатр"
+
+#: apps/backend/models/saved.py:19
+msgid "Saved cinema"
+msgstr "Сохранённый кинотеатр"
+
+#: apps/backend/models/saved.py:20
+msgid "Saved cinemas"
+msgstr "Сохранённые кинотеатры"
+
+#: apps/backend/tasks/cinema.py:66 apps/bot/utils/send_cinema.py:71
+msgid "Failed to retrieve the video."
+msgstr "Не удалось извлечь видео."
+
+#: apps/bot/handlers/back.py:29 apps/bot/handlers/back.py:57
+#: apps/bot/handlers/language.py:67 apps/bot/handlers/saved.py:92
+#: apps/bot/handlers/user.py:49
+msgid "[{}](tg://user?id={}) Welcome to the bot!"
+msgstr "[{}](tg://user?id={}) Добро пожаловать в бот!"
+
+#: apps/bot/handlers/cinema.py:34 apps/bot/handlers/user.py:34
+msgid "Cinema not found."
+msgstr "Кинотеатр не найден."
+
+#: apps/bot/handlers/genres.py:33 apps/bot/handlers/genres.py:76
+#: apps/bot/handlers/info.py:24 apps/bot/handlers/language.py:30
+#: apps/bot/handlers/search.py:23 apps/bot/handlers/top.py:40
+#: apps/bot/keyboard/home.py:47 apps/bot/utils/pagination.py:75
+msgid "◀️Back"
+msgstr "️◀️Назад"
+
+#: apps/bot/handlers/genres.py:39
+msgid "No genre available."
+msgstr "Жанр недоступен."
+
+#: apps/bot/handlers/genres.py:44
+msgid "All genres:"
+msgstr ""
+"🎭 Выберите один из жанров, доступных в боте\n"
+"\n"
+"Выберите один из следующих вариантов👇"
+
+#: apps/bot/handlers/genres.py:73
+msgid "List of Cinemas📋"
+msgstr "Список фильмов📋"
+
+#: apps/bot/handlers/genres.py:78
+#, python-brace-format
+msgid "Find {cinemas_count} cinemas with this genre."
+msgstr "Найдено {cinemas_count} фильмов в этом жанре."
+
+#: apps/bot/handlers/info.py:34
+msgid "No info available."
+msgstr "Нет информации."
+
+#: apps/bot/handlers/language.py:59
+msgid "Language updated successfully!"
+msgstr "Язык успешно обновлен!"
+
+#: apps/bot/handlers/pagination.py:16
+msgid "You don't have permissions"
+msgstr "У вас нет разрешений"
+
+#: apps/bot/handlers/pagination.py:22
+msgid "Cinema not found"
+msgstr "Фильм не найден"
+
+#: apps/bot/handlers/pagination.py:26
+#, python-brace-format
+msgid "Selected cinema: {title}"
+msgstr "Избранный фильм: {title}"
+
+#: apps/bot/handlers/pagination.py:41
+msgid "You cannot change this page!"
+msgstr "Вы не можете изменить эту страницу!"
+
+#: apps/bot/handlers/random.py:33
+msgid "No available movies at the moment."
+msgstr "В настоящее время нет доступных фильмов."
+
+#: apps/bot/handlers/register.py:72
+msgid "Unknown action."
+msgstr "Неизвестное действие."
+
+#: apps/bot/handlers/save.py:33
+msgid "Cinema has been unsaved."
+msgstr "Фильм не сохранено."
+
+#: apps/bot/handlers/save.py:36
+msgid "Cinema has been saved."
+msgstr "Фильм сохранён."
+
+#: apps/bot/handlers/saved.py:33
+msgid "❌ No saved cinema."
+msgstr "❌Сохранившегося кино нет."
+
+#: apps/bot/handlers/saved.py:39
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: apps/bot/handlers/saved.py:74
+msgid "❌No saved cinema."
+msgstr "❌Сохранённого кино нет."
+
+#: apps/bot/handlers/saved.py:79
+msgid "❌Saved cinemas cleared."
+msgstr "❌Сохранённые фильмы очищены."
+
+#: apps/bot/handlers/search.py:30
+msgid "🔍Send me cinema code"
+msgstr "🔍 Введите код фильма"
+
+#: apps/bot/handlers/top.py:27
+msgid ""
+"Top 10 cinemas:\n"
+"\n"
+msgstr "Топ-10 фильмров:\n"
+
+#: apps/bot/handlers/top.py:69
+msgid "Sorry, the cinema you are looking for does not exist."
+msgstr "Извините, фильм, который вы ищете, отсутствует."
+
+#: apps/bot/handlers/top.py:84
+msgid "Sorry, there was an error while processing your request."
+msgstr "Извините, при обработке вашего запроса произошла ошибка."
+
+#: apps/bot/handlers/user.py:56
+msgid "An error occurred."
+msgstr "Ошибка произошла."
+
+#: apps/bot/keyboard/home.py:19
+msgid "🔍Search Cinema"
+msgstr "🔍Поиск фильмов"
+
+#: apps/bot/keyboard/home.py:20
+msgid "📊Top Cinema"
+msgstr "📊Лучшие фильмы"
+
+#: apps/bot/keyboard/home.py:21
+msgid "🎲Random"
+msgstr "🎲Случайный фильм"
+
+#: apps/bot/keyboard/home.py:22
+msgid "📥Saved"
+msgstr "📥Сохраненные фильмы"
+
+#: apps/bot/keyboard/home.py:23
+msgid "⁉️Info"
+msgstr "⁉️Информация"
+
+#: apps/bot/keyboard/home.py:24
+msgid "🎭Genres"
+msgstr "🎭Жанры"
+
+#: apps/bot/keyboard/home.py:25
+msgid "✅Language"
+msgstr "✅Язык"
+
+#: apps/bot/keyboard/home.py:28
+msgid "🎬✏️Search Cinema with text"
+msgstr "🎬✏️Поиск фильмов с текстом"
+
+#: apps/bot/keyboard/home.py:39
+msgid "↪️Share"
+msgstr "↪️️Поделиться"
+
+#: apps/bot/keyboard/home.py:42
+msgid "📥Save"
+msgstr "📥Сохранить"
+
+#: apps/bot/keyboard/home.py:42
+msgid "🗑️Unsave"
+msgstr "🗑️️Удалить"
+
+#: apps/bot/keyboard/home.py:46
+msgid "💸Donate"
+msgstr "💸Пожертвовать"
+
+#: apps/bot/middlewares/antiflood_middleware.py:18
+msgid "You are making request too often"
+msgstr "Вы слишком часто запрашиваете"
+
+#: apps/bot/query/inlinequery.py:77
+msgid "🎥Watch cinema"
+msgstr "🎥Смотреть кинотеатр"
+
+#: apps/bot/query/inlinequery.py:82
+msgid "↩️Share"
+msgstr "↩️️Поделиться"
+
+#: apps/bot/query/inlinequery.py:89 apps/bot/utils/cinema_caption.py:23
+#: apps/bot/utils/cinema_caption.py:26 apps/bot/utils/cinema_caption.py:29
+#: apps/bot/utils/cinema_caption.py:32 apps/bot/utils/cinema_caption.py:35
+#: apps/bot/utils/cinema_caption.py:37
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: apps/bot/utils/cinema_caption.py:17 apps/bot/utils/cinema_caption.py:38
+msgid "N/A"
+msgstr "Н/А"
+
+#: apps/bot/utils/cinema_caption.py:27
+msgid "No description available."
+msgstr "Описание недоступно."
+
+#: apps/bot/utils/pagination.py:26
+msgid "You have no saved cinemas!"
+msgstr "У вас нет сохранённых фильмов!"
+
+#: apps/bot/utils/pagination.py:37
+msgid "Page does not exist!"
+msgstr "Страница не существует!"
+
+#: apps/bot/utils/pagination.py:50
+#, python-brace-format
+msgid ""
+"📂 Results {start}-{end} of {total}\n"
+"\n"
+msgstr ""
+"📂Результаты {start}-{end} из {total}\n"
+"\n"
+"\n"
+
+#: apps/bot/utils/pagination.py:54
+#, python-brace-format
+#| msgid "{index}. {title} | {view_count}\n"
+msgid "<b>{index}.</b> {title} | 👁{view_count}\n"
+msgstr "<b>{index}.</b> {title} | 👁{view_count}\n"
+
+#: apps/bot/utils/pagination.py:71
+msgid "🗑Clear"
+msgstr "🗑Очистить"
+
+#: apps/bot/utils/send_cinema.py:46
+msgid "The selected movie is unavailable."
+msgstr "Выбранный фильм недоступен."
+
+#: apps/shared/views/dashboard.py:43 assets/templates/admin/index.html:8
+msgid "Dashboard"
+msgstr "Приборная панель"
+
+#: apps/shared/views/dashboard.py:44
+msgid "Analytics"
+msgstr "Аналитика"
+
+#: apps/shared/views/dashboard.py:45
+msgid "Settings"
+msgstr "Настройки"
+
+#: apps/shared/views/dashboard.py:48
+msgid "All"
+msgstr "Все"
+
+#: apps/shared/views/dashboard.py:50
+msgid "New"
+msgstr "Новый"
+
+#: apps/shared/views/dashboard.py:160
+msgid "Last week revenue"
+msgstr "Доход за прошлую неделю"
+
+#: apps/shared/views/dashboard.py:178
+msgid "Last week expenses"
+msgstr "Расходы на прошлую неделю"
+
+#: assets/templates/admin/base_site.html:3 assets/templates/admin/index.html:8
+msgid "Django site admin"
+msgstr "Администратор сайта Django"
+
+#: assets/templates/admin/base_site.html:6
+#: assets/templates/admin/index.html:18
+msgid "Django administration"
+msgstr "Администрация джанго"
+
+#: assets/templates/admin/index.html:35
+msgid "Last 7 days"
+msgstr "Последние 7 дней"
+
+#: assets/templates/admin/index.html:51
+msgid "Product performance in last 28 days"
+msgstr "Производительность продукта за последние 28 дней"
+
+#: assets/templates/admin/index.html:56
+msgid "The most trending products in last 2 weeks"
+msgstr "Самые популярные товары за последние 2 недели"
+
+#: assets/templates/admin/index.html:62
+#, python-format
+msgid ""
+"\n"
+"                            Total revenue between <strong class=\"font-semibold text-font-important-light dark:text-font-important-dark dark:text-white\">1 - 31 October</strong>. Increase <span class=\"text-green-700 font-semibold dark:text-green-400\">+3.14%%</span> comparing to previous month <strong class=\"font-semibold text-font-important-light dark:text-font-important-dark dark:text-white\">1 - 30 September</strong>.\n"
+"                        "
+msgstr ""
+"\n"
+"Общий доход между <strong class=\"font-semibold text-font-important-light dark:text-font-important-dark dark:text-white\">1 - 31 октября</strong>. Увеличить <span class=\"font-green-700 font-semibold dark:text-green-400\">+3.14%%</span> по сравнению с предыдущим месяцем <strong class=\"font-semibold text-font-important-light dark:text-font-important-dark dark:text-white\">1 - 30 сентября</strong>."
+
+#: assets/templates/admin/index.html:83
+msgid "Current system health"
+msgstr "Текущее состояние системы"
+
+#: core/config/unfold.py:22
+msgid "My site"
+msgstr "Мой сайт"
+
+#: core/config/unfold_navigation.py:21
+msgid "Bosh sahifa"
+msgstr "Главная страница"
+
+#: core/config/unfold_navigation.py:29 core/config/unfold_navigation.py:40
+#: core/config/unfold_navigation.py:145
+msgid "Foydalanuvchilar"
+msgstr "Пользователи"
+
+#: core/config/unfold_navigation.py:32 core/config/unfold_navigation.py:149
+msgid "Guruhlar"
+msgstr "Группы"
+
+#: core/config/unfold_navigation.py:56
+msgid "Site"
+msgstr "Сайт"
+
+#: core/config/unfold_navigation.py:67
+msgid "Models"
+msgstr "Модели"
+
+#: core/config/unfold_navigation.py:118
+msgid "Saved"
+msgstr "Сохранено"
+
+#: core/settings.py:104
+msgid "Russia"
+msgstr "Россия"
+
+#~ msgid "Development"
+#~ msgstr "Разработка"
+
+#~ msgid "Production"
+#~ msgstr "Производство"

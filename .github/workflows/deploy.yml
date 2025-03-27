@@ -1,0 +1,33 @@
+name: Deploy Django Application to Server for Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Deploy to Server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          port: ${{ secrets.SSH_PORT }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            set -e
+            cd ${{ secrets.DEPLOY_PATH }}
+            echo "Pulling latest changes from main branch..."
+            git fetch --all
+            git reset --hard origin/main
+            echo "Building and restarting Docker containers..."
+            docker compose pull
+            docker compose up -d --build
+            echo "Cleaning up unused Docker images..."
+            docker image prune -af
+            echo "Deployment completed successfully!"
