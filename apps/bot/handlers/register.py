@@ -3,6 +3,7 @@ from telebot import TeleBot
 from telebot.types import CallbackQuery
 
 from apps.bot.handlers.back import callback_handler_back, callback_handler_cinema_back
+from apps.bot.handlers.confirm_subscription import callback_handler_confirm_subscription
 from apps.bot.handlers.genres import (
     callback_handler_genre,
     callback_handler_genre_cinema,
@@ -12,7 +13,7 @@ from apps.bot.handlers.language import (
     handle_language_selection,
     callback_handler_language,
 )
-from apps.bot.handlers.pagination import callback_page_nav, callback_cinema_select
+from apps.bot.handlers.pagination import callback_page_nav
 from apps.bot.handlers.random import callback_handler_random
 from apps.bot.handlers.save import callback_handler_save
 from apps.bot.handlers.saved import callback_handler_saved, callback_handler_clear
@@ -66,8 +67,8 @@ def handle_callback_query(call: CallbackQuery, bot: TeleBot):
     elif call.data.startswith("page_nav"):
         callback_page_nav(call, bot)
         logger.info(f"User {call.data} selected a page.")
-    elif call.data.startswith("file_select"):
-        callback_cinema_select(call, bot)
+    elif call.data == "confirm_subscription":
+        callback_handler_confirm_subscription(call, bot)
     else:
         bot.answer_callback_query(call.id, _("Unknown action."))
         logger.info(f"User {call.from_user.id} performed an unknown action.")

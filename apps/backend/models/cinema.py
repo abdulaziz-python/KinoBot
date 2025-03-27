@@ -21,7 +21,7 @@ class Cinema(AbstractBaseModel):
     description = models.TextField(
         verbose_name=_("Description"),
         db_index=True,
-        validators=[MaxLengthValidator(600)]
+        validators=[MaxLengthValidator(600)],
     )
     image = models.ImageField(
         upload_to="cinema", verbose_name=_("Image"), blank=True, null=True
@@ -51,7 +51,9 @@ class Cinema(AbstractBaseModel):
     year = models.ForeignKey(
         "Year", on_delete=models.PROTECT, verbose_name=_("Year"), db_index=True
     )
-    code = models.PositiveBigIntegerField(verbose_name=_("Code"), db_index=True, null=True, blank=True)
+    code = models.PositiveBigIntegerField(
+        verbose_name=_("Code"), db_index=True, null=True, blank=True
+    )
     channel = models.ForeignKey(
         "Channel", on_delete=models.PROTECT, verbose_name=_("Channel"), db_index=True
     )

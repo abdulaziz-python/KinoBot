@@ -69,7 +69,11 @@ def search_query(bot, query):
 
         for cinema in queryset[:50]:
             default_url = f"https://{current_domain}" + "/static/images/logo.png"
-            thumbnail_url = f"https://{current_domain}{cinema.image.url}" if cinema.image else default_url
+            thumbnail_url = (
+                f"https://{current_domain}{cinema.image.url}"
+                if cinema.image
+                else default_url
+            )
 
             keyboard = InlineKeyboardMarkup()
             keyboard.add(

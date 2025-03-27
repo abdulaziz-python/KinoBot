@@ -7,9 +7,9 @@ from apps.bot.logger import logger
 from apps.bot.utils import update_or_create_user
 from apps.bot.utils.language import with_language, set_language_code
 from apps.bot.utils.redis import delete_user_session
+from apps.bot.utils.subscription import check_subscribe
 
 
-@with_language
 def callback_handler_back(call: CallbackQuery, bot: TeleBot):
     update_or_create_user(
         telegram_id=call.from_user.id,
@@ -21,21 +21,26 @@ def callback_handler_back(call: CallbackQuery, bot: TeleBot):
     activate(set_language_code(call.from_user.id))
     delete_user_session(call.from_user.id)
     logger.info(f"User {call.from_user.id} selected a back.")
+    if check_subscribe(
+        bot=bot,
+        user_id=call.from_user.id,
+        call=call,
+    ):
 
-    first_name = call.from_user.first_name
-    if call.from_user.last_name:
-        first_name += f" {call.from_user.last_name}"
+        first_name = call.from_user.first_name
+        if call.from_user.last_name:
+            first_name += f" {call.from_user.last_name}"
 
-    caption = _("[{}](tg://user?id={}) Welcome to the bot!").format(
-        first_name, call.from_user.id
-    )
-    bot.edit_message_text(
-        chat_id=call.message.chat.id,
-        message_id=call.message.message_id,
-        text=caption,
-        parse_mode="Markdown",
-        reply_markup=get_main_inline_buttons(),
-    )
+        caption = _("[{}](tg://user?id={}) Welcome to the bot!").format(
+            first_name, call.from_user.id
+        )
+        bot.edit_message_text(
+            chat_id=call.message.chat.id,
+            message_id=call.message.message_id,
+            text=caption,
+            parse_mode="Markdown",
+            reply_markup=get_main_inline_buttons(),
+        )
 
 
 @with_language
@@ -49,21 +54,25 @@ def callback_handler_cinema_back(call: CallbackQuery, bot: TeleBot):
     )
     activate(set_language_code(call.from_user.id))
     logger.info(f"User {call.from_user.id} selected a back.")
+    if check_subscribe(
+        bot=bot,
+        user_id=call.from_user.id,
+        call=call,
+    ):
+        first_name = call.from_user.first_name
+        if call.from_user.last_name:
+            first_name += f" {call.from_user.last_name}"
 
-    first_name = call.from_user.first_name
-    if call.from_user.last_name:
-        first_name += f" {call.from_user.last_name}"
-
-    caption = _("[{}](tg://user?id={}) Welcome to the bot!").format(
-        first_name, call.from_user.id
-    )
-    bot.delete_message(
-        chat_id=call.message.chat.id,
-        message_id=call.message.message_id,
-    )
-    bot.send_message(
-        chat_id=call.message.chat.id,
-        text=caption,
-        parse_mode="Markdown",
-        reply_markup=get_main_inline_buttons(),
-    )
+        caption = _("[{}](tg://user?id={}) Welcome to the bot!").format(
+            first_name, call.from_user.id
+        )
+        bot.delete_message(
+            chat_id=call.message.chat.id,
+            message_id=call.message.message_id,
+        )
+        bot.send_message(
+            chat_id=call.message.chat.id,
+            text=caption,
+            parse_mode="Markdown",
+            reply_markup=get_main_inline_buttons(),
+        )

@@ -45,6 +45,20 @@ PAGES = [
                 ),
             },
             {
+                "title": _("Site"),
+                "icon": "language",
+                "link": reverse_lazy("admin:sites_site_changelist"),
+                "permission": lambda request: user_has_group_or_permission(
+                    request.user, "view_sites"
+                ),
+            },
+        ],
+    },
+    {
+        "seperator": True,
+        "title": _("Bot"),
+        "items": [
+            {
                 "title": _("Bot Users"),
                 "icon": "person_add",
                 "link": reverse_lazy("admin:backend_botuser_changelist"),
@@ -53,11 +67,43 @@ PAGES = [
                 ),
             },
             {
-                "title": _("Site"),
-                "icon": "language",
-                "link": reverse_lazy("admin:sites_site_changelist"),
+                "title": _("Subscribing Channels"),
+                "icon": "admin_panel_settings",
+                "link": reverse_lazy("admin:backend_subscribechannel_changelist"),
                 "permission": lambda request: user_has_group_or_permission(
-                    request.user, "view_sites"
+                    request.user, "view_subscribechannel"
+                ),
+            },
+            {
+                "title": _("Settings"),
+                "icon": "toggle_on",
+                "link": reverse_lazy("admin:backend_settings_changelist"),
+                "permission": lambda request: user_has_group_or_permission(
+                    request.user, "view_settings"
+                ),
+            },
+            {
+                "title": _("News"),
+                "icon": "brand_awareness",
+                "link": reverse_lazy("admin:backend_news_changelist"),
+                "permission": lambda request: user_has_group_or_permission(
+                    request.user, "view_news"
+                ),
+            },
+            {
+                "title": _("Info"),
+                "icon": "info",
+                "link": reverse_lazy("admin:backend_info_changelist"),
+                "permission": lambda request: user_has_group_or_permission(
+                    request.user, "view_info"
+                ),
+            },
+            {
+                "title": _("Saved"),
+                "icon": "bookmark",
+                "link": reverse_lazy("admin:backend_saved_changelist"),
+                "permission": lambda request: user_has_group_or_permission(
+                    request.user, "view_saved"
                 ),
             },
         ],
@@ -112,22 +158,6 @@ PAGES = [
                 "link": reverse_lazy("admin:backend_year_changelist"),
                 "permission": lambda request: user_has_group_or_permission(
                     request.user, "view_year"
-                ),
-            },
-            {
-                "title": _("Saved"),
-                "icon": "bookmark",
-                "link": reverse_lazy("admin:backend_saved_changelist"),
-                "permission": lambda request: user_has_group_or_permission(
-                    request.user, "view_saved"
-                ),
-            },
-            {
-                "title": _("Info"),
-                "icon": "info",
-                "link": reverse_lazy("admin:backend_info_changelist"),
-                "permission": lambda request: user_has_group_or_permission(
-                    request.user, "view_info"
                 ),
             },
         ],
