@@ -1,6 +1,7 @@
 from django.utils.translation import gettext as _
 from telebot import TeleBot
 from telebot.apihelper import ApiTelegramException
+from telebot.types import ReplyParameters
 
 from apps.backend.models.channel import Channel, ChannelType
 from apps.backend.models.cinema import Cinema

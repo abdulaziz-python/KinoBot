@@ -29,7 +29,7 @@ def cinema_caption(cinema_id, bot):
         str(f"{cinema.country.native}{cinema.country.emoji}" or _("Unknown"))
     )
     language = escape(
-        str(f"{cinema.country.native}{cinema.country.emoji}" or _("Unknown"))
+        str(f"{cinema.language.native}{cinema.language.emoji}" or _("Unknown"))
     )
     resolution = escape(
         str(cinema.resolution.label if cinema.resolution else _("Unknown"))
@@ -41,7 +41,7 @@ def cinema_caption(cinema_id, bot):
 
     text = (
         f"🎬 <b>{_('Name')}:</b> {title}\n\n"
-        f"<pre>{description}</pre>\n\n"
+        f"<blockquote expandable>{description[:600]}</blockquote>\n\n"
         f"🌐 <b>{_('Country')}:</b> {country}\n"
         f"🚩 <b>{_('Language')}:</b> {language}\n"
         f"🎭 <b>{_('Genre')}:</b> {genres}\n"

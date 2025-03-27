@@ -1,6 +1,7 @@
 import re
 
 from django.core.exceptions import ValidationError
+from django.core.validators import MaxLengthValidator
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
@@ -16,8 +17,12 @@ def validate_telegram_message_url(value):
 
 
 class Cinema(AbstractBaseModel):
-    title = models.CharField(max_length=255, verbose_name=_("Name"), db_index=True)
-    description = models.TextField(verbose_name=_("Description"), db_index=True)
+    title = models.CharField(max_length=100, verbose_name=_("Name"), db_index=True)
+    description = models.TextField(
+        verbose_name=_("Description"),
+        db_index=True,
+        validators=[MaxLengthValidator(600)]
+    )
     image = models.ImageField(
         upload_to="cinema", verbose_name=_("Image"), blank=True, null=True
     )
