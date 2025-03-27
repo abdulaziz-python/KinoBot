@@ -1,3 +1,4 @@
+from django.contrib.sites.models import Site
 from django.utils.translation import gettext as _, activate
 from telebot import TeleBot
 from telebot.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
@@ -25,7 +26,8 @@ def callback_handler_search(call: CallbackQuery, bot: TeleBot):
     markup = InlineKeyboardMarkup(row_width=2)
     markup.add(*[button for row in buttons for button in row])
 
-    thumbnail_url = "https://child-protection.felixits.uz/media/avatars/PicsArt_25-03-26_10-50-34-589.png"
+    current_domain = Site.objects.get_current().domain
+    thumbnail_url = f"https://{current_domain}" + "/static/images/logo.png"
 
     text = _("🔍Send me cinema code")
 

@@ -1,3 +1,4 @@
+from django.contrib.sites.models import Site
 from django.utils.translation import gettext as _, activate
 from telebot import TeleBot
 from telebot.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
@@ -36,7 +37,8 @@ def callback_handler_info(call: CallbackQuery, bot: TeleBot):
         )
         return
 
-    thumbnail_url = "https://child-protection.felixits.uz/media/avatars/PicsArt_25-03-26_10-50-34-589.png"
+    current_domain = Site.objects.get_current().domain
+    thumbnail_url = f"https://{current_domain}" + "/static/images/logo.png"
     caption = f"<b>{info.title}</b>\n\n{info.description}<a href='{thumbnail_url}'>‎</a>"
 
     bot.edit_message_text(
