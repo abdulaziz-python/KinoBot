@@ -41,7 +41,7 @@ def cinema_caption(cinema_id, bot):
 
     text = (
         f"🎬 <b>{_('Name')}:</b> {title}\n\n"
-        f"{description}\n\n"
+        f"<pre>{description}</pre>\n\n"
         f"🌐 <b>{_('Country')}:</b> {country}\n"
         f"🚩 <b>{_('Language')}:</b> {language}\n"
         f"🎭 <b>{_('Genre')}:</b> {genres}\n"
