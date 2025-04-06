@@ -23,6 +23,7 @@ def get_main_inline_buttons():
         [InlineKeyboardButton(_("⁉️Info"), callback_data="info")],
         [InlineKeyboardButton(_("🎭Genres"), callback_data="genres")],
         [InlineKeyboardButton(_("✅Language"), callback_data="language")],
+        [InlineKeyboardButton(_("💸Donate"), callback_data="donate")],
     ]
     inline_button_search = InlineKeyboardButton(
         text=_("🎬✏️Search Cinema with text"), switch_inline_query_current_chat=""
@@ -43,7 +44,7 @@ def get_cinema_inline_buttons(cinema, user):
                 callback_data=f"save_{cinema.id}",
             )
         ],
-        [InlineKeyboardButton(_("💸Donate"), url="https://tirikchilik.uz/ja_khan_gir")],
+        [InlineKeyboardButton(_("💸Donate"), callback_data="donate")],
         [InlineKeyboardButton(_("◀️Back"), callback_data="cinema_back")],
     ]
     markup = InlineKeyboardMarkup(row_width=2)

@@ -4,6 +4,7 @@ from telebot.types import CallbackQuery
 
 from apps.bot.handlers.back import callback_handler_back, callback_handler_cinema_back
 from apps.bot.handlers.confirm_subscription import callback_handler_confirm_subscription
+from apps.bot.handlers.donate import callback_handler_donate, callback_handler_donate_amount
 from apps.bot.handlers.genres import (
     callback_handler_genre,
     callback_handler_genre_cinema,
@@ -58,6 +59,10 @@ def handle_callback_query(call: CallbackQuery, bot: TeleBot):
         callback_handler_cinema_back(call, bot)
     elif call.data == "clear":
         callback_handler_clear(call, bot)
+    elif call.data == "donate":
+        callback_handler_donate(call, bot)
+    elif call.data.startswith("donate_amount_"):
+        callback_handler_donate_amount(call, bot)
     elif call.data.startswith("save_"):
         callback_handler_save(call, bot)
     elif call.data.startswith("genre_"):

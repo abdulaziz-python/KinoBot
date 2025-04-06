@@ -1,14 +1,11 @@
 import json
 import os
 
-import redis
-
-redis_instance = redis.StrictRedis.from_url(os.getenv("REDIS_CACHE_URL"))
-
+from django.core.cache import cache
 
 def set_user_session(user_id: int, cinemas: list, page: int) -> None:
     """
-    Sets the user session in Redis with the given cinemas and page number.
+    Sets the user session in cache with the given cinemas and page number.
     """
     session_data = {
         "cinemas": [
@@ -23,14 +20,14 @@ def set_user_session(user_id: int, cinemas: list, page: int) -> None:
         ],
         "page": page,
     }
-    redis_instance.set(f"user_session:{user_id}", json.dumps(session_data))
+    cache.set(f"user_session:{user_id}", json.dumps(session_data), timeout=3600)
 
 
 def get_user_session(user_id: int):
     """
-    Redis'dan foydalanuvchi sessiyasini oladi.
+    Cache'dan foydalanuvchi sessiyasini oladi.
     """
-    session = redis_instance.get(f"user_session:{user_id}")
+    session = cache.get(f"user_session:{user_id}")
     if session:
         return json.loads(session)  # noqa
     return None
@@ -38,7 +35,6 @@ def get_user_session(user_id: int):
 
 def delete_user_session(user_id: int):
     """
-    Deletes the user session from Redis if it exists.
+    Deletes the user session from cache if it exists.
     """
-    if redis_instance.exists(f"user_session:{user_id}"):
-        redis_instance.delete(f"user_session:{user_id}")
+    cache.delete(f"user_session:{user_id}")

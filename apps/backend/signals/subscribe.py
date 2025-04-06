@@ -11,4 +11,7 @@ def check_channel_status(sender, instance, created, **kwargs):
         SubscribeChannelType.CHANNEL,
         SubscribeChannelType.GROUP,
     ]:
-        process_subscribe_channel_task.delay(instance.id)
+        try:
+            process_subscribe_channel_task(instance.id)
+        except Exception:
+            pass

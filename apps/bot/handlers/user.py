@@ -12,6 +12,7 @@ from telebot.types import (
 from apps.backend.models.bot import BotUser
 from apps.backend.models.cinema import Cinema
 from apps.backend.models.subscribe import SubscribeChannel
+from apps.backend.tasks.payment import update_donation_status
 from apps.bot.keyboard import get_main_inline_buttons
 from apps.bot.logger import logger
 from apps.bot.utils import update_or_create_user
@@ -42,7 +43,30 @@ def any_user(message: Message, bot: TeleBot):
             user_id=message.from_user.id,
             message=message,
         ):
+            # Tekshirish: /start buyruq payment callback bilan kelganmi?
+            if message.text.startswith("/start payment_"):
+                if message.text.startswith("/start payment_success_"):
+                    transaction_id = message.text.replace("/start payment_success_", "")
+                    update_donation_status.delay(transaction_id, "success")
+                    bot.send_message(
+                        message.chat.id,
+                        _("*To'lovingiz qabul qilinmoqda...*\n\nBir necha soniya ichida to'lov natijasi haqida xabar olasiz."),
+                        parse_mode="Markdown",
+                        reply_markup=get_main_inline_buttons(),
+                    )
+                    return
+                elif message.text.startswith("/start payment_cancel_"):
+                    transaction_id = message.text.replace("/start payment_cancel_", "")
+                    update_donation_status.delay(transaction_id, "cancelled")
+                    bot.send_message(
+                        message.chat.id,
+                        _("*To'lov bekor qilindi*\n\nBoshqa vaqt urinib ko'rishingiz mumkin."),
+                        parse_mode="Markdown",
+                        reply_markup=get_main_inline_buttons(),
+                    )
+                    return
 
+            # Oddiy /start buyrug'i yoki ID bilan kelgan /start
             if message.text.startswith("/start ") and re.match(
                 r"/start \d+", message.text
             ):

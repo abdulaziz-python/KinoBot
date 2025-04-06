@@ -8,4 +8,7 @@ from apps.backend.tasks.cinema import process_cinema_task
 @receiver(post_save, sender=Cinema)
 def cinema_post_save(sender, instance, created, **kwargs):
     if created:
-        process_cinema_task.delay(instance.id)
+        try:
+            process_cinema_task(instance.id)
+        except Exception:
+            pass

@@ -13,9 +13,9 @@ def environment_callback(request):
 
 
 UNFOLD = {
-    "SITE_TITLE": "Kasofat Cinema",
-    "SITE_HEADER": "Kasofat Cinema",
-    "SITE_SUBHEADER": "Kasoafat Cinema",
+    "SITE_TITLE": "WTF Cinema",
+    "SITE_HEADER": "WTF Cinema",
+    "SITE_SUBHEADER": "WTF Cinema",
     "SITE_DROPDOWN": [
         {
             "icon": "diversity_2",
