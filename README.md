@@ -203,3 +203,150 @@ pre-commit install
 pre-commit install --hook-type commit-msg
 pre-commit run --all-files # Check if everything is okay
 ```
+
+# WTF Cinema Bot
+
+Telegram bot for watching movies with donation system.
+
+## Features
+
+- Multi-language support (UZ, RU, EN)
+- Movie search and browsing
+- Donation using Stars.uz payment system
+- Admin panel for content management
+- PostgreSQL database support
+
+## Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/abdulaziz-python/KinoBot.git
+cd KinoBot
+```
+
+2. Create a virtual environment and install dependencies
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Linux/macOS
+# or
+.venv\Scripts\activate  # Windows
+
+pip install -r requirements.txt
+```
+
+3. Create a `.env` file based on the example and configure it
+```
+SECRET_KEY=your-secret-key
+DEBUG=True
+ALLOWED_HOSTS=localhost,127.0.0.1,.pythonanywhere.com
+CSRF_TRUSTED_ORIGINS=http://localhost,http://127.0.0.1,https://*.pythonanywhere.com
+
+POSTGRES_DB=your_db
+POSTGRES_USER=your_user
+POSTGRES_PASSWORD=your_password
+POSTGRES_BOUNCER_HOST=your_host
+POSTGRES_BOUNCER_PORT=your_port
+
+BOT_TOKEN=your_telegram_bot_token
+
+SITE_NAME=WTF cinema
+BOT_NAME=WTF cinema
+
+# Stars Payment API Key
+STARS_API_KEY=your_stars_api_key_here
+```
+
+4. Run migrations
+```bash
+python manage.py migrate
+```
+
+5. Create a cache table
+```bash
+python manage.py createcachetable django_cache
+```
+
+6. Create a superuser
+```bash
+python manage.py createsuperuser
+```
+
+7. Run the server
+```bash
+python manage.py runserver
+```
+
+8. Run the Telegram bot in a separate terminal
+```bash
+python apps/bot/main.py
+```
+
+## Deployment to PythonAnywhere
+
+1. Create a PythonAnywhere account and a web app
+
+2. Go to the Bash console and clone the repository
+```bash
+git clone https://github.com/abdulaziz-python/KinoBot.git
+cd KinoBot
+```
+
+3. Create a virtual environment and install dependencies
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+4. Create/configure your `.env` file with your settings
+
+5. Run migrations and create cache table
+```bash
+python manage.py migrate
+python manage.py createcachetable django_cache
+```
+
+6. Configure the WSGI file to point to your Django project
+```python
+import os
+import sys
+
+path = '/home/yourusername/KinoBot'
+if path not in sys.path:
+    sys.path.append(path)
+
+os.environ['DJANGO_SETTINGS_MODULE'] = 'core.settings'
+
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
+```
+
+7. Set up a scheduled task to run the bot
+Create a file called `run_bot.py` in the root directory:
+```python
+import os
+import sys
+
+# Add the project root directory to the Python path
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(PROJECT_ROOT)
+
+# Run the bot
+from apps.bot.main import run
+run()
+```
+
+Then set up a scheduled task in PythonAnywhere to run this file:
+```bash
+python /home/yourusername/KinoBot/run_bot.py
+```
+
+8. Configure your static files in the PythonAnywhere web app settings:
+URL: /static/
+Directory: /home/yourusername/KinoBot/assets/staticfiles/
+
+9. Configure your media files:
+URL: /media/
+Directory: /home/yourusername/KinoBot/assets/media/
+
+10. Reload your web app and it should be working!
