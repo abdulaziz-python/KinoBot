@@ -241,11 +241,13 @@ DEBUG=True
 ALLOWED_HOSTS=localhost,127.0.0.1,.pythonanywhere.com
 CSRF_TRUSTED_ORIGINS=http://localhost,http://127.0.0.1,https://*.pythonanywhere.com
 
-POSTGRES_DB=your_db
-POSTGRES_USER=your_user
-POSTGRES_PASSWORD=your_password
-POSTGRES_BOUNCER_HOST=your_host
-POSTGRES_BOUNCER_PORT=your_port
+# MySQL PythonAnywhere ma'lumotlar bazasi
+DATABASE_ENGINE=django.db.backends.mysql
+DATABASE_NAME=yourusername$default
+DATABASE_USER=yourusername
+DATABASE_PASSWORD=your_mysql_password_here
+DATABASE_HOST=yourusername.mysql.pythonanywhere-services.com
+DATABASE_PORT=3306
 
 BOT_TOKEN=your_telegram_bot_token
 
